@@ -5,7 +5,7 @@
 ---
 
 ## ⚡ Mission
-- Collect, organize, and analyze experimental data  
+- **Collect**, **organize**, and **analyze** *experimental data*  
 - Provide a stable, extensible API for processing and analysis  
 - Serve as the foundation for simulations, CLI, and P2P collaboration
 
