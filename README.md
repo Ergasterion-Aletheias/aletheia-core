@@ -1,4 +1,4 @@
-# 🛠️ Aletheia Core – Heart of the Lab of Truth
+# 🛠️ Aletheia Core
 
 > Core library for data collection, cataloging, and analysis in the Aletheia ecosystem.
 
