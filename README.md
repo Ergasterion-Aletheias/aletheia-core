@@ -30,6 +30,37 @@
 - Designed for **scientists, engineers, and researchers**
 
 ---
+# 🧩 Aletheia Core – Architecture Diagram
+
+```mermaid
+flowchart TD
+    subgraph Core["Aletheia Core"]
+        DATA[Data Catalog & Storage<br/>JSON / SQLite / Metadata]
+        ANALYSIS[Analysis Engine<br/>Statistical & Pattern Analysis]
+        API[Extensible API<br/>Python / Rust Bindings]
+        TAGGING[Metadata & Tagging System<br/>Automatic Experiment Tracking]
+    end
+
+    subgraph Interfaces["User Interfaces"]
+        CLI[Aletheia CLI<br/>Command-line tools]
+        UI[Notebooks / Wiki / Docs]
+    end
+
+    subgraph Integration["Integration & Extensibility"]
+        SIM[Aletheia Simulations<br/>Physics & Scientific Models]
+        P2P[Aletheia P2P<br/>Collaborative Compute & Data Sharing]
+    end
+
+    DATA --> ANALYSIS
+    ANALYSIS --> API
+    TAGGING --> DATA
+    API --> CLI
+    API --> UI
+    API --> SIM
+    API --> P2P
+```
+
+---
 
 ## 💡 Getting Started
 1. Clone the repository:
